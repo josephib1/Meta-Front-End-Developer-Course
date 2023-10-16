@@ -1,0 +1,54 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+body{
+    background-image: url("lemon.webp");
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px 3px;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    box-shadow: 5px 5px 5px 5px;
+}
+
+section{
+    display:flex;
+    padding: 20px;
+}
+section h1{
+    font-size: 3rem;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+article{
+    box-shadow: 3px 3px 10px 1px;
+    margin: 5px;
+
+    background-color: rgb(233, 241, 121);
+}
